@@ -1,4 +1,4 @@
-.App {
+ .App {
   text-align: center;
 }
 
@@ -36,3 +36,93 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  padding-top: 30px;
+  width: 300px;
+  margin: auto;
+}
+
+.input {
+  padding: 5px 15px;
+  width: 300px;
+}
+
+.user-list {
+  margin-top: 30px;
+}
+
+.user {
+  list-style: none;
+  margin: 10px 0;
+  padding: 10px;
+  background: #eee;
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-id {
+  color: red;
+  margin-right: 20px;
+}
+
+.user-name {
+  color: blue;
+}
+
+.user-age {
+  margin-left: auto;
+  color: green;
+}
+
+.menu {
+  margin-bottom: 12px;
+}
+
+.menu a {
+  display: inline-block;
+  margin-bottom: -1px;
+  margin-right: 12px;
+}
+
+.menu a.active {
+  font-weight: bold;
+  background-color: white;
+}
+
+.menu-level-0 {
+  border-bottom: 1px solid #eaeaea;
+}
+
+.menu-level-0 a {
+  padding: 12px;
+  background-color: #eaeaea;
+  border: 1px solid #eaeaea;
+  font-size: 1.5rem;
+  text-decoration: none;
+  margin-right: 6px;
+}
+
+.breadcrumbs {
+  padding-bottom: 12px;
+  margin-bottom: 12px;
+  font-size: 90%;
+}
+
+.breadcrumbs .item {
+  display: inline-block;
+}
+
+.breadcrumbs .item:first-child::before {
+  display: none;
+}
+
+.breadcrumbs .item::before {
+  content: " > ";
+  margin: 0 12px;
+}
+.breadcrumbs .item a {
+  text-decoration: none;
+  color:#d32828;
+} 
+
